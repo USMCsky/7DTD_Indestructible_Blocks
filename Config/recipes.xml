@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+    <append xpath="/recipes">
+        <recipe name="indestructibleSteelBlock" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+            <ingredient name="resourceForgedSteel" count="20" />
+        </recipe>
+    </append>
+</configs>

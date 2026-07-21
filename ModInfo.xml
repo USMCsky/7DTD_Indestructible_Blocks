@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="IndestructibleBlock" />
+    <DisplayName value="Indestructible Shapes Block" />
+    <Description value="Server-side indestructible shape block placeable only inside active Land Claims. Can only be picked up by placer." />
+    <Author value="USMCsky" />
+    <Version value="1.0.0" />
+    <Website value="https://github.com/USMCsky" />
+</xml>

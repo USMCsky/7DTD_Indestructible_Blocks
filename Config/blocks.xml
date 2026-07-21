@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+    <append xpath="/blocks">
+        <!-- The "helper" block that hosts the shapes wheel -->
+        <block name="indestructibleSteelBlock">
+            <property name="Extends" value="steelShapesMaster" />
+            <property name="CreativeMode" value="Player" />
+            <property name="CustomIcon" value="steelShapesMaster" />
+            <property name="ItemTypeIcon" value="all_shapes" />
+
+            <!-- Enable full shapes variant wheel (Wedges, plates, etc.) -->
+            <property name="Shape" value="New" />
+            <property name="Shapes" value="all" />
+
+            <!-- Indestructible & Pickup Settings -->
+            <property name="MaxDamage" value="0" />
+            <property name="Pickup" value="true" />
+
+            <!-- Native Land Claim Restrictions & Filtering -->
+            <property name="Place" value="OnlyInClaim" />
+            <property name="FilterTags" value="MC_building,SC_metal,MC_shapes" />
+
+            <!-- Disables downgrades/upgrades to ensure permanence -->
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="indestructibleSteelBlock" />
+                <property name="Item" value="resourceForgedSteel" />
+                <property name="ItemCount" value="0" />
+                <property name="UpgradeHitCount" value="0" />
+            </property>
+            <drop event="Destroy" count="0" />
+        </block>
+    </append>
+</configs>
