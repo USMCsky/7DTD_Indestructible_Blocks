@@ -1,4 +1,8 @@
-# 7DTD_Indestructible_Blocks
+# 7DTD Indestructible Blocks
+![Version](https://img.shields.io/badge/Version-3.0-blue?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/USMCsky/7DTD_Indestructible_Blocks?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-XML-orange?style=for-the-badge)
+![Author](https://img.shields.io/badge/Author-USMCsky-blue?style=for-the-badge)
 
  Core Mechanics & Features
  📐 Shape Menu Functionality:
