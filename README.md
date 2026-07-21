@@ -4,13 +4,58 @@
 ![Language](https://img.shields.io/badge/Language-XML-orange?style=for-the-badge)
 ![Author](https://img.shields.io/badge/Author-USMCsky-blue?style=for-the-badge)
 
- Core Mechanics & Features
- 📐 Shape Menu Functionality:
- When you hold the block in your hand, press and hold your Reload Key (R). This opens the radial menu where you can select "Shapes" to choose between wedges, plates, columns, and more.
+A lightweight **7 Days to Die XML modlet** that adds claim-safe, indestructible utility blocks with shape selection and radial pickup support.
 
- 🛡️ Strict Land Claim Restriction:
- Because of the Place="OnlyInClaim" property, if a player steps outside their green land claim perimeter box, the block outline turns red and will physically block them from setting it down.
+## Core Mechanics & Features
 
- 🎒 Radial Pickup:
- To reclaim the block, the original player simply has to look at any of the placed shapes, hold down the Interact Key (E), and select the hand icon from the radial selection wheel.
+### 📐 Shape Menu Functionality
+When you hold the block in your hand, press and hold your **Reload key (`R`)** to open the radial menu, then select **Shapes** to choose wedges, plates, columns, and more.
 
+### 🛡️ Strict Land Claim Restriction
+Because of the `Place="OnlyInClaim"` property, if a player steps outside their green land claim perimeter, the placement outline turns red and the block cannot be placed.
+
+### 🎒 Radial Pickup
+To reclaim the block, the original player can look at any placed shape, hold **Interact (`E`)**, and select the **hand icon** from the radial wheel.
+
+---
+
+## Installation
+
+1. **Download or clone** this repository.
+2. Ensure your game uses the standard **Mods** folder:
+   - Typical path: `.../7 Days To Die/Mods/`
+3. Place the mod folder so the structure looks like:
+
+```text
+7 Days To Die/
+└── Mods/
+    └── 7DTD_Indestructible_Blocks/
+        ├── Config/
+        ├── ModInfo.xml
+        └── (other mod files)
+```
+
+4. Launch the game and load your world/server.
+
+## Usage
+
+- Craft or obtain the indestructible block item in-game.
+- Stand **inside your land claim area** to place it.
+- Use **`R`** while holding the block to choose alternate shapes.
+- Use **`E`** on a placed block and select the hand icon to pick it back up.
+
+## Compatibility Notes
+
+- Designed as an XML modlet for modern 7DTD mod loading via the `Mods` directory.
+- If using multiple block-editing mods, load-order conflicts can occur when multiple mods patch the same block definitions.
+- For dedicated servers, install the mod on the server first, then client-side if your setup requires it.
+
+## Troubleshooting
+
+- **Block won’t place:** Confirm you are within your active land claim boundary.
+- **Shapes not appearing:** Verify no other mod overrides the same block/item entries.
+- **Mod not loading:** Double-check folder nesting (avoid accidental extra parent folder levels).
+
+## Credits
+
+Created by **USMCsky**.
