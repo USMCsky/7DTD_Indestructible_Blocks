@@ -1,15 +1,5 @@
 # 7DTD_Indestructible_Blocks
 
-Folder Structure
-To install this on your server, create a new folder named IndestructibleBlock inside your server's Mods directory:
-7 Days To Die/
-└── Mods/
-    └── IndestructibleBlock/
-        ├── ModInfo.xml
-        └── Config/
-            ├── blocks.xml
-            └── recipes.xml
-
  Core Mechanics & Features
  📐 Shape Menu Functionality:
  When you hold the block in your hand, press and hold your Reload Key (R). This opens the radial menu where you can select "Shapes" to choose between wedges, plates, columns, and more.
