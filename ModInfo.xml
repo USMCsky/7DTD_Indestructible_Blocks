@@ -2,7 +2,7 @@
 <xml>
     <Name value="IndestructibleBlock" />
     <DisplayName value="Indestructible Shapes Block" />
-    <Description value="Server-side indestructible shape block placeable only inside active Land Claims. Can only be picked up by placer." />
+    <Description value="Server-side indestructible shape block with shape selection and pickup support for the placing player." />
     <Author value="USMCsky" />
     <Version value="1.1.0" />
     <Website value="https://github.com/USMCsky" />

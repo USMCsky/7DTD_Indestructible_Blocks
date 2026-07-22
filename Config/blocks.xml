@@ -8,7 +8,6 @@
             <property name="ItemTypeIcon" value="all_shapes" />
             <property name="MaxDamage" value="0" />
             <property name="Pickup" value="true" />
-            <property name="Place" value="OnlyInClaim" />
             <property name="FilterTags" value="MC_building,SC_metal,MC_Shapes" />
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="indestructibleSteelBlock" />
@@ -25,7 +24,6 @@
             <property name="ItemTypeIcon" value="all_shapes" />
             <property name="MaxDamage" value="0" />
             <property name="Pickup" value="true" />
-            <property name="Place" value="OnlyInClaim" />
             <property name="FilterTags" value="MC_building,SC_metal,MC_Shapes" />
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="indestructibleSteelShapes" />

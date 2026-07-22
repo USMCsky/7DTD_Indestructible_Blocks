@@ -11,8 +11,8 @@ A lightweight **7 Days to Die XML modlet** that adds claim-safe, indestructible 
 ### 📐 Shape Menu Functionality
 When you hold the block in your hand, press and hold your **Reload key (`R`)** to open the radial menu, then select **Shapes** to choose wedges, plates, columns, and more.
 
-### 🛡️ Strict Land Claim Restriction
-Because of the `Place="OnlyInClaim"` property, if a player steps outside their green land claim perimeter, the placement outline turns red and the block cannot be placed.
+### 🛡️ Current 3.0 Placement Behavior
+The older `Place="OnlyInClaim"` hook no longer exists in 7DTD 3.0. This mod now stays XML-only and load-safe, so placement follows the normal game block-placement rules instead of a hard claim-only restriction.
 
 ### 🎒 Radial Pickup
 To reclaim the block, the original player can look at any placed shape, hold **Interact (`E`)**, and select the **hand icon** from the radial wheel.
@@ -40,7 +40,7 @@ To reclaim the block, the original player can look at any placed shape, hold **I
 ## Usage
 
 - Craft or obtain the indestructible block item in-game.
-- Stand **inside your land claim area** to place it.
+- Place the block anywhere the normal game rules allow.
 - Use **`R`** while holding the block to choose alternate shapes.
 - Use **`E`** on a placed block and select the hand icon to pick it back up.
 
@@ -54,7 +54,7 @@ To reclaim the block, the original player can look at any placed shape, hold **I
 
 ## Troubleshooting
 
-- **Block won’t place:** Confirm you are within your active land claim boundary.
+- **Mod fails to load with `No block placement class 'OnlyInClaim' found`:** That property was removed in 3.0. This repo now removes it so `blocks.xml` loads cleanly again.
 - **Shapes not appearing:** Verify no other mod overrides the same block/item entries.
 - **Red `TileEntityComposite.read` spam after updating the mod:** A world that already saved the earlier broken block may still contain incompatible active-block data. Restore a backup from before that version, or replace the affected save/region data before using the fixed build.
 - **Generators/turrets lost contents after mod removal:** That is a save-compatibility failure, not normal mod behavior. Keep the legacy block ID in place and do not uninstall or rename block defs on a live world without a tested rollback plan.
