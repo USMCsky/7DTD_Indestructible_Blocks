@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configs>
     <append xpath="/blocks">
-        <!-- The "helper" block that hosts the shapes wheel -->
-        <block name="indestructibleSteelBlock" extends="steelShapesMaster">
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="steelShapesMaster" />
+        <!-- Keep the old block ID present so existing saves do not remap block IDs on upgrade/removal. -->
+        <block name="indestructibleSteelBlock" extends="steelShapes">
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIcon" value="steelShapes" />
             <property name="ItemTypeIcon" value="all_shapes" />
-
-            <!-- Enable full shapes variant wheel (Wedges, plates, etc.) -->
-            <property name="Shape" value="New" />
-            <property name="Shapes" value="all" />
-
-            <!-- Indestructible & Pickup Settings -->
             <property name="MaxDamage" value="0" />
             <property name="Pickup" value="true" />
-
-            <!-- Native Land Claim Restrictions & Filtering -->
             <property name="Place" value="OnlyInClaim" />
-            <property name="FilterTags" value="MC_building,SC_metal,MC_shapes" />
-
-            <!-- Disables downgrades/upgrades to ensure permanence -->
+            <property name="FilterTags" value="MC_building,SC_metal,MC_Shapes" />
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="indestructibleSteelBlock" />
+                <property name="Item" value="resourceForgedSteel" />
+                <property name="ItemCount" value="0" />
+                <property name="UpgradeHitCount" value="0" />
+            </property>
+            <drop event="Destroy" count="0" />
+        </block>
+
+        <block name="indestructibleSteelShapes" extends="steelShapes">
+            <property name="CreativeMode" value="Player" />
+            <property name="CustomIcon" value="steelShapes" />
+            <property name="ItemTypeIcon" value="all_shapes" />
+            <property name="MaxDamage" value="0" />
+            <property name="Pickup" value="true" />
+            <property name="Place" value="OnlyInClaim" />
+            <property name="FilterTags" value="MC_building,SC_metal,MC_Shapes" />
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="indestructibleSteelShapes" />
                 <property name="Item" value="resourceForgedSteel" />
                 <property name="ItemCount" value="0" />
                 <property name="UpgradeHitCount" value="0" />

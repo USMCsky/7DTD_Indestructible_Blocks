@@ -49,11 +49,15 @@ To reclaim the block, the original player can look at any placed shape, hold **I
 - Designed as an XML modlet for modern 7DTD mod loading via the `Mods` directory.
 - If using multiple block-editing mods, load-order conflicts can occur when multiple mods patch the same block definitions.
 - For dedicated servers, install the mod on the server first, then client-side if your setup requires it.
+- Upgrades now craft a new fixed block ID, `indestructibleSteelShapes`, while the old `indestructibleSteelBlock` entry is kept as a hidden legacy ID so existing saves do not reshuffle block mappings.
+- Do **not** remove or rename deployed block definitions from an active world without a backup. In 7DTD that can remap saved block IDs and damage unrelated tile-entity inventories.
 
 ## Troubleshooting
 
 - **Block won’t place:** Confirm you are within your active land claim boundary.
 - **Shapes not appearing:** Verify no other mod overrides the same block/item entries.
+- **Red `TileEntityComposite.read` spam after updating the mod:** A world that already saved the earlier broken block may still contain incompatible active-block data. Restore a backup from before that version, or replace the affected save/region data before using the fixed build.
+- **Generators/turrets lost contents after mod removal:** That is a save-compatibility failure, not normal mod behavior. Keep the legacy block ID in place and do not uninstall or rename block defs on a live world without a tested rollback plan.
 - **Mod not loading:** Double-check folder nesting (avoid accidental extra parent folder levels).
 
 ## Credits
