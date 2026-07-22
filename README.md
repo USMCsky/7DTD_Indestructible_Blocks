@@ -1,3 +1,5 @@
+# currently has a serious bug that stops server from loading. Do not use. 7/22/26
+
 # 7DTD Indestructible Blocks
 ![Version](https://img.shields.io/badge/Version-3.0-blue?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/USMCsky/7DTD_Indestructible_Blocks?style=for-the-badge)
