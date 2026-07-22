@@ -2,8 +2,7 @@
 <configs>
     <append xpath="/blocks">
         <!-- The "helper" block that hosts the shapes wheel -->
-        <block name="indestructibleSteelBlock">
-            <property name="Extends" value="steelShapesMaster" />
+        <block name="indestructibleSteelBlock" extends="steelShapesMaster">
             <property name="CreativeMode" value="Player" />
             <property name="CustomIcon" value="steelShapesMaster" />
             <property name="ItemTypeIcon" value="all_shapes" />

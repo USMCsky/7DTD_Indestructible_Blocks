@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIDiffSettings">
+    <option name="showAIDiff" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4306eea2-12b7-4236-9268-f2e82cedbe03" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;USMCsky&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/USMCsky/7DTD_Indestructible_Blocks.git&quot;,
+    &quot;accountId&quot;: &quot;7abdf8fe-3810-4715-b422-69639f6dbba7&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.553574442652699" />
+      <entry key="MS500" value="3.6835763104981343" />
+      <entry key="S2" value="11.824607877934458" />
+      <entry key="S5" value="24.44724901678987" />
+      <entry key="S10" value="41.26253709134723" />
+      <entry key="S30" value="89.59498086250713" />
+      <entry key="S60" value="123.46421055989505" />
+      <entry key="M2" value="148.87381047801853" />
+      <entry key="M5" value="168.10300650687705" />
+      <entry key="M10" value="175.32410535526157" />
+      <entry key="M15" value="177.83062824255464" />
+      <entry key="M30" value="180.3888533731589" />
+      <entry key="H1" value="181.68773409302247" />
+      <entry key="H2" value="182.342184115486" />
+      <entry key="H4" value="182.6706700954146" />
+      <entry key="D1" value="182.945052972013" />
+      <entry key="W1" value="182.99214898539717" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5041484311437585" />
+      <entry key="MS500" value="3.660386762883963" />
+      <entry key="S2" value="11.805072694717621" />
+      <entry key="S5" value="24.43036051463599" />
+      <entry key="S10" value="41.247761108333115" />
+      <entry key="S30" value="89.58311433958994" />
+      <entry key="S60" value="123.45548053507274" />
+      <entry key="M2" value="148.86832097700713" />
+      <entry key="M5" value="168.1004560515004" />
+      <entry key="M10" value="175.32276211541077" />
+      <entry key="M15" value="177.82971689666212" />
+      <entry key="M30" value="180.38838958075902" />
+      <entry key="H1" value="181.68750012992788" />
+      <entry key="H2" value="182.34206661251287" />
+      <entry key="H4" value="182.67061121297925" />
+      <entry key="D1" value="182.94504314003586" />
+      <entry key="W1" value="182.99214758038178" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GpldRD7YwIBr8GgkgYzypkHxZ0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ezabi/source/repos/7DTD_Indestructible_Blocks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4306eea2-12b7-4236-9268-f2e82cedbe03" name="Changes" comment="" />
+      <created>1784676478046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784676478046</updated>
+      <workItem from="1784676479430" duration="64000" />
+      <workItem from="1784676662642" duration="1467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
